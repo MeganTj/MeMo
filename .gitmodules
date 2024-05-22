@@ -1,0 +1,6 @@
+[submodule "rl_RoboGrammar/RoboGrammar"]
+	path = rl_RoboGrammar/RoboGrammar
+	url = git@github.com:allanzhao/RoboGrammar.git
+[submodule "rl_DiffHand/DiffHand"]
+	path = rl_DiffHand/DiffHand
+	url = git@github.com:MeganTj/DiffHand.git

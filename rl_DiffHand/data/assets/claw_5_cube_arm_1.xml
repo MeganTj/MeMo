@@ -1,0 +1,371 @@
+<redmax model="finger_reach">
+    <option integrator="BDF1" timestep="5e-3" gravity="0. 0. -9.8e1"/>
+
+    <ground pos="0 0 -20" normal="0 0 1"/>
+
+    <default>
+        <joint lim_stiffness="1e2" damping="0.2" />
+        <general_primitive_contact kn="1e5" kt="1e3" mu="0.8" damping="3e1"/>
+        <motor P="6e6" D="6e4" ctrl_range="-3.14 3.14"/>
+    </default>
+
+    <robot>
+        <link name="link0" design_params="11">
+            <joint name="joint0" type="fixed" pos="-10 0 0" quat="0.5 -0.5 -0.5 -0.5" axis="1 0 0"/>
+            <body name="body0" type="mesh" filename="finger/meshes/palm.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/palm.txt" scale="4.5 2 1.5" pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.700000 0.700000 0.700000 1"/>
+            <link name="link1" design_params="11">
+                <joint name="joint1" type="fixed" pos="1.575 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000"/>
+                <body name="body1" type="mesh"  filename="finger/meshes/knuckle_parent.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/knuckle_parent.txt" scale="4.5 2 1.5" pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.700000 0.700000 0.700000 1"/>
+                <link name="link2" design_params="11">
+                    <joint name="joint2" type="fixed" axis="1.000000 0.000000 0.000000" pos="5.1750000 0.000000 0.000000" quat="0.707 -0.707 0.000000 0.000000" damping="5e5"/>
+                    <body name="body2" type="mesh"  filename="finger/meshes/knuckle_child.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/knuckle_child.txt"  scale="4.5 2 1.5" pos="-5.1750000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.600000 0.600000 0.600000 1"/>
+                    <link name="link3" design_params="11">
+                        <joint name="joint3" type="fixed" pos="7.200000 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000"/>
+                        <body name="body3" type="mesh"  filename="finger/meshes/joint_parent.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/joint_parent.txt" scale="4.5 2 1.5" pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.600000 0.600000 0.600000 1"/>
+                        <link name="link4" design_params="11">
+                            <joint name="joint4" type="fixed" axis="0.000000 1.000000 0.000000" pos="4.860000 0.000000 0.000000" quat="0.707 0.000000 -0.707 0.000000" damping="5e5"/>
+                            <body name="body4" type="mesh"  filename="finger/meshes/joint_child.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/joint_child.txt" scale="4.5 2 1.5" pos="-4.860000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.500000 0.500000 0.500000 1"/>
+                            <link name="link5" design_params="11">
+                                <joint name="joint5" type="fixed" pos="4.410000 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000"/>
+                                <body name="body5" type="mesh"  filename="finger/meshes/phalanx.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/phalanx.txt" scale="4.5 2 1.5" pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.500000 0.500000 0.500000 1"/>
+                                <link name="link6" design_params="11">
+                                    <joint name="joint6" type="fixed" pos="10.530000 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000"/>
+                                    <body name="body6" type="mesh"  filename="finger/meshes/joint_parent.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/joint_parent.txt" scale="4.5 2 1.5" pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.500000 0.500000 0.500000 1"/>
+                                    <link name="link7" design_params="11">
+                                        <joint name="joint7" type="revolute" axis="0.000000 1.000000 0.000000" pos="4.860000 0.000000 0.000000" quat="0.707 0.000000 -0.707 0.000000" damping="1e5"/>
+                                        <body name="body7" type="mesh"  filename="finger/meshes/joint_child.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/joint_child.txt" scale="4.5 2 1.5" pos="-4.860000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.400000 0.400000 0.400000 1"/>
+                                        <link name="link8" design_params="11">
+                                            <joint name="joint8" type="fixed" pos="4.410000 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000"/>
+                                            <body name="body8" type="mesh"  filename="finger/meshes/phalanx.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/phalanx.txt" scale="7 2 1.5" pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.400000 0.400000 0.400000 1"/>
+                                            <link name="finger1_link0" design_params="11">
+                                                <joint name="finger1_joint0" type="fixed" pos="14 0 2" quat=" 0.925 0 -0.380 0" axis="1 0 0"/>
+                                                <body name="finger1_body0" type="mesh" filename="finger/meshes/palm.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/palm.txt" scale="1.5 2.5 1" pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.700000 0.700000 0.700000 1"/>
+                                                <link name="finger1_link1" design_params="11">
+                                                    <joint name="finger1_joint1" type="fixed" pos="0.525000 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000"/>
+                                                    <body name="finger1_body1" type="mesh"  filename="finger/meshes/knuckle_parent.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/knuckle_parent.txt" scale="1.5 2.5 1" pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.700000 0.700000 0.700000 1"/>
+                                                    <link name="finger1_link2" design_params="11">
+                                                        <joint name="finger1_joint2" type="fixed" axis="0.000000 0.000000 1.000000" pos="1.7255000 0.000000 0.000000" quat="0.707 0.707 0.000000 0.000000" damping="5e5" lim="-.45 1.35"/>
+                                                        <body name="finger1_body2" type="mesh"  filename="finger/meshes/knuckle_child.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/knuckle_child.txt" scale="1.5 2.5 1" pos="-1.7250000 -0.000000 -0.000000" quat="1 0 0 0.0000" mass="1"  inertia="1. 1. 1."  rgba="0.600000 0.600000 0.600000 1"/>
+                                                        <link name="finger1_link3" design_params="11">
+                                                            <joint name="finger1_joint3" type="fixed" pos="2.400000 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000"/>
+                                                            <body name="finger1_body3" type="mesh"  filename="finger/meshes/joint_parent.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/joint_parent.txt" scale="1.5 2.5 1" pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.600000 0.600000 0.600000 1"/>
+                                                            <link name="finger1_link4" design_params="11">
+                                                                <joint name="finger1_joint4" type="revolute" axis="0.000000 1.000000 0.000000" pos="1.62000 0.000000 0.000000" quat="0.654 0.654 -0.269000 -0.269000" damping="5e5" lim="-1.57 1.57"/>
+                                                                <body name="finger1_body4" type="mesh"  filename="finger/meshes/joint_child.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/joint_child.txt" scale="1.5 2.5 1" pos="-1.620000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.500000 0.500000 0.500000 1"/>
+                                                                <link name="finger1_link5" design_params="11">
+                                                                    <joint name="finger1_joint5" type="fixed" pos="1.470000 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000"/>
+                                                                    <body name="finger1_body5" type="mesh"  filename="finger/meshes/phalanx.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/phalanx.txt" scale="1.5 2.5 1" pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.500000 0.500000 0.500000 1"/>
+                                                                    <link name="finger1_link6" design_params="11">
+                                                                        <joint name="finger1_joint6" type="fixed" pos="3.510000 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000"/>
+                                                                        <body name="finger1_body6" type="mesh"  filename="finger/meshes/joint_parent.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/joint_parent.txt" scale="1.5 2.5 1"  pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.500000 0.500000 0.500000 1"/>
+                                                                        <link name="finger1_link7" design_params="11">
+                                                                            <joint name="finger1_joint7" type="revolute" axis="0.000000 1.000000 0.000000" pos="1.620000 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000" damping="5e5" lim="-1.57 1.57"/>
+                                                                            <body name="finger1_body7" type="mesh"  filename="finger/meshes/joint_child.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/joint_child.txt" scale="1.5 2.5 1" pos="-1.620000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.400000 0.400000 0.400000 1"/>
+                                                                            <link name="finger1_link8" design_params="11">
+                                                                                <joint name="finger1_joint8" type="fixed" pos="1.470000 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000"/>
+                                                                                <body name="finger1_body8" type="mesh"  filename="finger/meshes/phalanx.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/phalanx.txt" scale="1.5 2.5 1" pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.400000 0.400000 0.400000 1"/>
+                                                                                <link name="finger1_link9" design_params="11">
+                                                                                    <joint name="finger1_joint9" type="fixed" pos="3.51 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000"/>
+                                                                                    <body name="finger1_body9" type="mesh"  filename="finger/meshes/tip.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/tip.txt" scale="1.5 2.5 1" pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.300000 0.300000 0.300000 1"/>
+                                                                                    <link name="finger1_endeffector" design_params="1">
+                                                                                        <joint name="finger1_joint-endeffector" type="fixed" pos="2.025 0.0 1.5" quat="1. 0. 0. 0."/>
+                                                                                        <body name="finger1_body-endeffector" type="cuboid" pos="0 0 0" scale="1.5 2.5 1" quat="1 0 0 0" size="0.1 0.1 0.1" density="0.1"/>
+                                                                                    </link>
+                                                                                </link>
+                                                                            </link>
+                                                                        </link>
+                                                                    </link>
+                                                                </link>
+                                                            </link>
+                                                        </link>
+                                                    </link>
+                                                </link>
+                                            </link>
+                                            <link name="finger2_link0" design_params="11">
+                                                <joint name="finger2_joint0" type="fixed" pos="14 2 0" quat="0.748 -0.544 -0.307 0.223" axis="1 0 0"/>
+                                                <body name="finger2_body0" type="mesh" filename="finger/meshes/palm.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/palm.txt" scale="1.5 2.5 1" pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.700000 0.700000 0.700000 1"/>
+                                                <link name="finger2_link1" design_params="11">
+                                                    <joint name="finger2_joint1" type="fixed" pos="0.525000 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000"/>
+                                                    <body name="finger2_body1" type="mesh"  filename="finger/meshes/knuckle_parent.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/knuckle_parent.txt" scale="1.5 2.5 1" pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.700000 0.700000 0.700000 1"/>
+                                                    <link name="finger2_link2" design_params="11">
+                                                        <joint name="finger2_joint2" type="fixed" axis="0.000000 0.000000 1.000000" pos="1.7255000 0.000000 0.000000" quat="0.707 0.707 0.000000 0.000000" damping="5e5" lim="-.45 1.35"/>
+                                                        <body name="finger2_body2" type="mesh"  filename="finger/meshes/knuckle_child.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/knuckle_child.txt" scale="1.5 2.5 1" pos="-1.7250000 -0.000000 -0.000000" quat="1 0 0 0.0000" mass="1"  inertia="1. 1. 1."  rgba="0.600000 0.600000 0.600000 1"/>
+                                                        <link name="finger2_link3" design_params="11">
+                                                            <joint name="finger2_joint3" type="fixed" pos="2.400000 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000"/>
+                                                            <body name="finger2_body3" type="mesh"  filename="finger/meshes/joint_parent.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/joint_parent.txt" scale="1.5 2.5 1" pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.600000 0.600000 0.600000 1"/>
+                                                            <link name="finger2_link4" design_params="11">
+                                                                <joint name="finger2_joint4" type="revolute" axis="0.000000 1.000000 0.000000" pos="1.62000 0.000000 0.000000" quat="0.654 0.654 -0.269000 -0.269000" damping="5e5" lim="-1.57 1.57"/>
+                                                                <body name="finger2_body4" type="mesh"  filename="finger/meshes/joint_child.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/joint_child.txt" scale="1.5 2.5 1" pos="-1.620000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.500000 0.500000 0.500000 1"/>
+                                                                <link name="finger2_link5" design_params="11">
+                                                                    <joint name="finger2_joint5" type="fixed" pos="1.470000 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000"/>
+                                                                    <body name="finger2_body5" type="mesh"  filename="finger/meshes/phalanx.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/phalanx.txt" scale="1.5 2.5 1" pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.500000 0.500000 0.500000 1"/>
+                                                                    <link name="finger2_link6" design_params="11">
+                                                                        <joint name="finger2_joint6" type="fixed" pos="3.510000 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000"/>
+                                                                        <body name="finger2_body6" type="mesh"  filename="finger/meshes/joint_parent.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/joint_parent.txt" scale="1.5 2.5 1"  pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.500000 0.500000 0.500000 1"/>
+                                                                        <link name="finger2_link7" design_params="11">
+                                                                            <joint name="finger2_joint7" type="revolute" axis="0.000000 1.000000 0.000000" pos="1.620000 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000" damping="5e5" lim="-1.57 1.57"/>
+                                                                            <body name="finger2_body7" type="mesh"  filename="finger/meshes/joint_child.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/joint_child.txt" scale="1.5 2.5 1" pos="-1.620000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.400000 0.400000 0.400000 1"/>
+                                                                            <link name="finger2_link8" design_params="11">
+                                                                                <joint name="finger2_joint8" type="fixed" pos="1.470000 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000"/>
+                                                                                <body name="finger2_body8" type="mesh"  filename="finger/meshes/phalanx.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/phalanx.txt" scale="1.5 2.5 1" pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.400000 0.400000 0.400000 1"/>
+                                                                                <link name="finger2_link9" design_params="11">
+                                                                                    <joint name="finger2_joint9" type="fixed" pos="3.51 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000"/>
+                                                                                    <body name="finger2_body9" type="mesh"  filename="finger/meshes/tip.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/tip.txt" scale="1.5 2.5 1" pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.300000 0.300000 0.300000 1"/>
+                                                                                    <link name="finger2_endeffector" design_params="1">
+                                                                                        <joint name="finger2_joint-endeffector" type="fixed" pos="2.025 0.0 1.5" quat="1. 0. 0. 0."/>
+                                                                                        <body name="finger2_body-endeffector" type="cuboid" pos="0 0 0" scale="1.5 2.5 1" quat="1 0 0 0" size="0.1 0.1 0.1" density="0.1"/>
+                                                                                    </link>
+                                                                                </link>
+                                                                            </link>
+                                                                        </link>
+                                                                    </link>
+                                                                </link>
+                                                            </link>
+                                                        </link>
+                                                    </link>
+                                                </link>
+                                            </link>
+                                            <link name="finger3_link0" design_params="11">
+                                                <joint name="finger3_joint0" type="fixed" pos="14 1.18 -1.62" quat="0.287 -0.880 -0.118 0.361" axis="1 0 0"/>
+                                                <body name="finger3_body0" type="mesh" filename="finger/meshes/palm.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/palm.txt" scale="1.5 2.5 1" pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.700000 0.700000 0.700000 1"/>
+                                                <link name="finger3_link1" design_params="11">
+                                                    <joint name="finger3_joint1" type="fixed" pos="0.525000 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000"/>
+                                                    <body name="finger3_body1" type="mesh"  filename="finger/meshes/knuckle_parent.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/knuckle_parent.txt" scale="1.5 2.5 1" pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.700000 0.700000 0.700000 1"/>
+                                                    <link name="finger3_link2" design_params="11">
+                                                        <joint name="finger3_joint2" type="fixed" axis="0.000000 0.000000 1.000000" pos="1.7255000 0.000000 0.000000" quat="0.707 0.707 0.000000 0.000000" damping="5e5" lim="-.45 1.35"/>
+                                                        <body name="finger3_body2" type="mesh"  filename="finger/meshes/knuckle_child.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/knuckle_child.txt" scale="1.5 2.5 1" pos="-1.7250000 -0.000000 -0.000000" quat="1 0 0 0.0000" mass="1"  inertia="1. 1. 1."  rgba="0.600000 0.600000 0.600000 1"/>
+                                                        <link name="finger3_link3" design_params="11">
+                                                            <joint name="finger3_joint3" type="fixed" pos="2.400000 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000"/>
+                                                            <body name="finger3_body3" type="mesh"  filename="finger/meshes/joint_parent.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/joint_parent.txt" scale="1.5 2.5 1" pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.600000 0.600000 0.600000 1"/>
+                                                            <link name="finger3_link4" design_params="11">
+                                                                <joint name="finger3_joint4" type="revolute" axis="0.000000 1.000000 0.000000" pos="1.62000 0.000000 0.000000" quat="0.654 0.654 -0.269000 -0.269000" damping="5e5" lim="-1.57 1.57"/>
+                                                                <body name="finger3_body4" type="mesh"  filename="finger/meshes/joint_child.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/joint_child.txt" scale="1.5 2.5 1" pos="-1.620000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.500000 0.500000 0.500000 1"/>
+                                                                <link name="finger3_link5" design_params="11">
+                                                                    <joint name="finger3_joint5" type="fixed" pos="1.470000 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000"/>
+                                                                    <body name="finger3_body5" type="mesh"  filename="finger/meshes/phalanx.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/phalanx.txt" scale="1.5 2.5 1" pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.500000 0.500000 0.500000 1"/>
+                                                                    <link name="finger3_link6" design_params="11">
+                                                                        <joint name="finger3_joint6" type="fixed" pos="3.510000 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000"/>
+                                                                        <body name="finger3_body6" type="mesh"  filename="finger/meshes/joint_parent.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/joint_parent.txt" scale="1.5 2.5 1"  pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.500000 0.500000 0.500000 1"/>
+                                                                        <link name="finger3_link7" design_params="11">
+                                                                            <joint name="finger3_joint7" type="revolute" axis="0.000000 1.000000 0.000000" pos="1.620000 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000" damping="5e5" lim="-1.57 1.57"/>
+                                                                            <body name="finger3_body7" type="mesh"  filename="finger/meshes/joint_child.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/joint_child.txt" scale="1.5 2.5 1" pos="-1.620000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.400000 0.400000 0.400000 1"/>
+                                                                            <link name="finger3_link8" design_params="11">
+                                                                                <joint name="finger3_joint8" type="fixed" pos="1.470000 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000"/>
+                                                                                <body name="finger3_body8" type="mesh"  filename="finger/meshes/phalanx.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/phalanx.txt" scale="1.5 2.5 1" pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.400000 0.400000 0.400000 1"/>
+                                                                                <link name="finger3_link9" design_params="11">
+                                                                                    <joint name="finger3_joint9" type="fixed" pos="3.51 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000"/>
+                                                                                    <body name="finger3_body9" type="mesh"  filename="finger/meshes/tip.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/tip.txt" scale="1.5 2.5 1" pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.300000 0.300000 0.300000 1"/>
+                                                                                    <link name="finger3_endeffector" design_params="1">
+                                                                                        <joint name="finger3_joint-endeffector" type="fixed" pos="2.025 0.0 1.5" quat="1. 0. 0. 0."/>
+                                                                                        <body name="finger3_body-endeffector" type="cuboid" pos="0 0 0" scale="1.5 2.5 1" quat="1 0 0 0" size="0.1 0.1 0.1" density="0.1"/>
+                                                                                    </link>
+                                                                                </link>
+                                                                            </link>
+                                                                        </link>
+                                                                    </link>
+                                                                </link>
+                                                            </link>
+                                                        </link>
+                                                    </link>
+                                                </link>
+                                            </link> 
+                                            <link name="finger4_link0" design_params="11">
+                                                <joint name="finger4_joint0" type="fixed" pos="14 -1.17 -1.61" quat="-0.287 -0.880 0.118 0.361" axis="1 0 0"/>
+                                                <body name="finger4_body0" type="mesh" filename="finger/meshes/palm.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/palm.txt" scale="1.5 2.5 1" pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.700000 0.700000 0.700000 1"/>
+                                                <link name="finger4_link1" design_params="11">
+                                                    <joint name="finger4_joint1" type="fixed" pos="0.525000 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000"/>
+                                                    <body name="finger4_body1" type="mesh"  filename="finger/meshes/knuckle_parent.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/knuckle_parent.txt" scale="1.5 2.5 1" pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.700000 0.700000 0.700000 1"/>
+                                                    <link name="finger4_link2" design_params="11">
+                                                        <joint name="finger4_joint2" type="fixed" axis="0.000000 0.000000 1.000000" pos="1.7255000 0.000000 0.000000" quat="0.707 0.707 0.000000 0.000000" damping="5e5" lim="-.45 1.35"/>
+                                                        <body name="finger4_body2" type="mesh"  filename="finger/meshes/knuckle_child.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/knuckle_child.txt" scale="1.5 2.5 1" pos="-1.7250000 -0.000000 -0.000000" quat="1 0 0 0.0000" mass="1"  inertia="1. 1. 1."  rgba="0.600000 0.600000 0.600000 1"/>
+                                                        <link name="finger4_link3" design_params="11">
+                                                            <joint name="finger4_joint3" type="fixed" pos="2.400000 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000"/>
+                                                            <body name="finger4_body3" type="mesh"  filename="finger/meshes/joint_parent.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/joint_parent.txt" scale="1.5 2.5 1" pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.600000 0.600000 0.600000 1"/>
+                                                            <link name="finger4_link4" design_params="11">
+                                                                <joint name="finger4_joint4" type="revolute" axis="0.000000 1.000000 0.000000" pos="1.62000 0.000000 0.000000" quat="0.654 0.654 -0.269000 -0.269000" damping="5e5" lim="-1.57 1.57"/>
+                                                                <body name="finger4_body4" type="mesh"  filename="finger/meshes/joint_child.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/joint_child.txt" scale="1.5 2.5 1" pos="-1.620000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.500000 0.500000 0.500000 1"/>
+                                                                <link name="finger4_link5" design_params="11">
+                                                                    <joint name="finger4_joint5" type="fixed" pos="1.470000 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000"/>
+                                                                    <body name="finger4_body5" type="mesh"  filename="finger/meshes/phalanx.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/phalanx.txt" scale="1.5 2.5 1" pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.500000 0.500000 0.500000 1"/>
+                                                                    <link name="finger4_link6" design_params="11">
+                                                                        <joint name="finger4_joint6" type="fixed" pos="3.510000 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000"/>
+                                                                        <body name="finger4_body6" type="mesh"  filename="finger/meshes/joint_parent.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/joint_parent.txt" scale="1.5 2.5 1"  pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.500000 0.500000 0.500000 1"/>
+                                                                        <link name="finger4_link7" design_params="11">
+                                                                            <joint name="finger4_joint7" type="revolute" axis="0.000000 1.000000 0.000000" pos="1.620000 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000" damping="5e5" lim="-1.57 1.57"/>
+                                                                            <body name="finger4_body7" type="mesh"  filename="finger/meshes/joint_child.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/joint_child.txt" scale="1.5 2.5 1" pos="-1.620000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.400000 0.400000 0.400000 1"/>
+                                                                            <link name="finger4_link8" design_params="11">
+                                                                                <joint name="finger4_joint8" type="fixed" pos="1.470000 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000"/>
+                                                                                <body name="finger4_body8" type="mesh"  filename="finger/meshes/phalanx.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/phalanx.txt" scale="1.5 2.5 1" pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.400000 0.400000 0.400000 1"/>
+                                                                                <link name="finger4_link9" design_params="11">
+                                                                                    <joint name="finger4_joint9" type="fixed" pos="3.51 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000"/>
+                                                                                    <body name="finger4_body9" type="mesh"  filename="finger/meshes/tip.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/tip.txt" scale="1.5 2.5 1" pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.300000 0.300000 0.300000 1"/>
+                                                                                    <link name="finger4_endeffector" design_params="1">
+                                                                                        <joint name="finger4_joint-endeffector" type="fixed" pos="2.025 0.0 1.5" quat="1. 0. 0. 0."/>
+                                                                                        <body name="finger4_body-endeffector" type="cuboid" pos="0 0 0" scale="1.5 2.5 1" quat="1 0 0 0" size="0.1 0.1 0.1" density="0.1"/>
+                                                                                    </link>
+                                                                                </link>
+                                                                            </link>
+                                                                        </link>
+                                                                    </link>
+                                                                </link>
+                                                            </link>
+                                                        </link>
+                                                    </link>
+                                                </link>
+                                            </link> 
+                                            <link name="finger5_link0" design_params="11">
+                                                <joint name="finger5_joint0" type="fixed" pos="14 -1.9 0.62" quat="-0.748 -0.544 0.307 0.223" axis="1 0 0"/>
+                                                <body name="finger5_body0" type="mesh" filename="finger/meshes/palm.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/palm.txt" scale="1.5 2.5 1" pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.700000 0.700000 0.700000 1"/>
+                                                <link name="finger5_link1" design_params="11">
+                                                    <joint name="finger5_joint1" type="fixed" pos="0.525000 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000"/>
+                                                    <body name="finger5_body1" type="mesh"  filename="finger/meshes/knuckle_parent.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/knuckle_parent.txt" scale="1.5 2.5 1" pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.700000 0.700000 0.700000 1"/>
+                                                    <link name="finger5_link2" design_params="11">
+                                                        <joint name="finger5_joint2" type="fixed" axis="0.000000 0.000000 1.000000" pos="1.7255000 0.000000 0.000000" quat="0.707 0.707 0.000000 0.000000" damping="5e5" lim="-.45 1.35"/>
+                                                        <body name="finger5_body2" type="mesh"  filename="finger/meshes/knuckle_child.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/knuckle_child.txt" scale="1.5 2.5 1" pos="-1.7250000 -0.000000 -0.000000" quat="1 0 0 0.0000" mass="1"  inertia="1. 1. 1."  rgba="0.600000 0.600000 0.600000 1"/>
+                                                        <link name="finger5_link3" design_params="11">
+                                                            <joint name="finger5_joint3" type="fixed" pos="2.400000 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000"/>
+                                                            <body name="finger5_body3" type="mesh"  filename="finger/meshes/joint_parent.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/joint_parent.txt" scale="1.5 2.5 1" pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.600000 0.600000 0.600000 1"/>
+                                                            <link name="finger5_link4" design_params="11">
+                                                                <joint name="finger5_joint4" type="revolute" axis="0.000000 1.000000 0.000000" pos="1.62000 0.000000 0.000000" quat="0.654 0.654 -0.269000 -0.269000" damping="5e5" lim="-1.57 1.57"/>
+                                                                <body name="finger5_body4" type="mesh"  filename="finger/meshes/joint_child.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/joint_child.txt" scale="1.5 2.5 1" pos="-1.620000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.500000 0.500000 0.500000 1"/>
+                                                                <link name="finger5_link5" design_params="11">
+                                                                    <joint name="finger5_joint5" type="fixed" pos="1.470000 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000"/>
+                                                                    <body name="finger5_body5" type="mesh"  filename="finger/meshes/phalanx.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/phalanx.txt" scale="1.5 2.5 1" pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.500000 0.500000 0.500000 1"/>
+                                                                    <link name="finger5_link6" design_params="11">
+                                                                        <joint name="finger5_joint6" type="fixed" pos="3.510000 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000"/>
+                                                                        <body name="finger5_body6" type="mesh"  filename="finger/meshes/joint_parent.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/joint_parent.txt" scale="1.5 2.5 1"  pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.500000 0.500000 0.500000 1"/>
+                                                                        <link name="finger5_link7" design_params="11">
+                                                                            <joint name="finger5_joint7" type="revolute" axis="0.000000 1.000000 0.000000" pos="1.620000 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000" damping="5e5" lim="-1.57 1.57"/>
+                                                                            <body name="finger5_body7" type="mesh"  filename="finger/meshes/joint_child.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/joint_child.txt" scale="1.5 2.5 1" pos="-1.620000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.400000 0.400000 0.400000 1"/>
+                                                                            <link name="finger5_link8" design_params="11">
+                                                                                <joint name="finger5_joint8" type="fixed" pos="1.470000 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000"/>
+                                                                                <body name="finger5_body8" type="mesh"  filename="finger/meshes/phalanx.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/phalanx.txt" scale="1.5 2.5 1" pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.400000 0.400000 0.400000 1"/>
+                                                                                <link name="finger5_link9" design_params="11">
+                                                                                    <joint name="finger5_joint9" type="fixed" pos="3.51 0.000000 0.000000" quat="1.000000 0.000000 0.000000 0.000000"/>
+                                                                                    <body name="finger5_body9" type="mesh"  filename="finger/meshes/tip.obj" transform_type="OBJ_TO_JOINT"  contacts="finger/contacts/tip.txt" scale="1.5 2.5 1" pos="-0.000000 -0.000000 -0.000000" quat="1.000000 0.000000 0.000000 0.000000" mass="1"  inertia="1. 1. 1."  rgba="0.300000 0.300000 0.300000 1"/>
+                                                                                    <link name="finger5_endeffector" design_params="1">
+                                                                                        <joint name="finger5_joint-endeffector" type="fixed" pos="2.025 0.0 1.5" quat="1. 0. 0. 0."/>
+                                                                                        <body name="finger5_body-endeffector" type="cuboid" pos="0 0 0" scale="1.5 2.5 1" quat="1 0 0 0" size="0.1 0.1 0.1" density="0.1"/>
+                                                                                    </link>
+                                                                                </link>
+                                                                            </link>
+                                                                        </link>
+                                                                    </link>
+                                                                </link>
+                                                            </link>
+                                                        </link>
+                                                    </link>
+                                                </link>
+                                            </link> 
+                                        </link>
+                                    </link>
+                                </link>
+                            </link>
+                        </link>
+                    </link>
+                </link>
+            </link>
+        </link>
+    </robot>
+
+    <robot>
+		<link name="cube">
+			<joint name="cube" type="free3d-exp" pos="0 0 0" quat="1 0 0 0" damping="0"/>
+			<body name="cube" type="cuboid" size="6. 6. 6." pos="10 0 -17" quat="1 0 0 0" density="1.0" mu="0" texture="resources/textures/cube.png"/>
+		</link>
+	</robot>
+
+    <actuator>
+        <motor joint="joint7"  ctrl="position"  ctrl_range="-6e7 6e7" P="6e7" D="6e5"/>
+        <motor joint="finger1_joint4"  ctrl="position"  ctrl_range="-3e7 3e7" P="3e7" D="3e5"/>
+        <motor joint="finger1_joint7"  ctrl="position"  ctrl_range="-3e7 3e7" P="3e7" D="3e5"/>
+        <motor joint="finger2_joint4"  ctrl="position"  ctrl_range="-3e7 3e7" P="3e7" D="3e5"/>
+        <motor joint="finger2_joint7"  ctrl="position"  ctrl_range="-3e7 3e7" P="3e7" D="3e5"/>
+        <motor joint="finger3_joint4"  ctrl="position"  ctrl_range="-3e7 3e7" P="3e7" D="3e5"/>
+        <motor joint="finger3_joint7"  ctrl="position"  ctrl_range="-3e7 3e7" P="3e7" D="3e5"/>
+        <motor joint="finger4_joint4"  ctrl="position"  ctrl_range="-3e7 3e7" P="3e7" D="3e5"/>
+        <motor joint="finger4_joint7"  ctrl="position"  ctrl_range="-3e7 3e7" P="3e7" D="3e5"/>
+        <motor joint="finger5_joint4"  ctrl="position"  ctrl_range="-3e7 3e7" P="3e7" D="3e5"/>
+        <motor joint="finger5_joint7"  ctrl="position"  ctrl_range="-3e7 3e7" P="3e7" D="3e5"/>
+    </actuator>
+
+    <contact>
+        <general_primitive_contact general_body="finger1_body0" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger1_body1" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger1_body2" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger1_body3" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger1_body4" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger1_body5" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger1_body6" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger1_body7" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger1_body8" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger1_body9" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger1_body-endeffector" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger2_body0" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger2_body1" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger2_body2" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger2_body3" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger2_body4" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger2_body5" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger2_body6" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger2_body7" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger2_body8" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger2_body9" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger2_body-endeffector" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger3_body0" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger3_body1" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger3_body2" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger3_body3" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger3_body4" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger3_body5" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger3_body6" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger3_body7" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger3_body8" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger3_body9" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger3_body-endeffector" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false"/>
+        <general_primitive_contact general_body="finger4_body0" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger4_body1" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger4_body2" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger4_body3" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger4_body4" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger4_body5" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger4_body6" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger4_body7" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger4_body8" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger4_body9" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger4_body-endeffector" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false"/>
+        <general_primitive_contact general_body="finger5_body0" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger5_body1" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger5_body2" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger5_body3" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger5_body4" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger5_body5" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger5_body6" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger5_body7" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger5_body8" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger5_body9" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false" />
+        <general_primitive_contact general_body="finger5_body-endeffector" primitive_body="cube" kn="1e6" kt="1e4" mu="15" damping="3e1" render="false"/>
+        <ground_contact body="cube" kn="1e6" kt="1e3" mu="0.8" damping="3e1"/>
+    </contact>
+
+    <variable>
+        <endeffector joint="finger1_joint-endeffector" pos="0 0 0" radius="1.0"/>
+        <endeffector joint="finger2_joint-endeffector" pos="0 0 0" radius="1.0"/>
+        <endeffector joint="finger3_joint-endeffector" pos="0 0 0" radius="1.0"/>
+        <endeffector joint="finger4_joint-endeffector" pos="0 0 0" radius="1.0"/>
+        <endeffector joint="finger5_joint-endeffector" pos="0 0 0" radius="1.0"/>
+        <endeffector joint="cube" pos="10 0 -17" radius="0.5"/>
+        <endeffector joint="cube" pos="10 0 -20" radius="0.5"/>
+        <endeffector joint="joint7" pos="0 0 0" radius="2"/>
+        <endeffector joint="finger1_joint4" pos="0 0 0" radius="1.0"/>
+        <endeffector joint="finger1_joint7" pos="0 0 0" radius="1.0"/>
+        <endeffector joint="finger2_joint4" pos="0 0 0" radius="1.0"/>
+        <endeffector joint="finger2_joint7" pos="0 0 0" radius="1.0"/>
+        <endeffector joint="finger3_joint4" pos="0 0 0" radius="1.0"/>
+        <endeffector joint="finger3_joint7" pos="0 0 0" radius="1.0"/>
+        <endeffector joint="finger4_joint4" pos="0 0 0" radius="1.0"/>
+        <endeffector joint="finger4_joint7" pos="0 0 0" radius="1.0"/>
+        <endeffector joint="finger5_joint4" pos="0 0 0" radius="1.0"/>
+        <endeffector joint="finger5_joint7" pos="0 0 0" radius="1.0"/>
+	</variable>
+</redmax>
