@@ -1,6 +1,6 @@
 # MeMo: Learning Meaningful, Modular Controllers
 
-This is the official codebase for MeMo: Learning Meaningful, Modular Controllers via Noise Injection
+This is the official codebase for [MeMo: Learning Meaningful, Modular Controllers via Noise Injection](https://arxiv.org/abs/1908.02729). MeMo is a method for learning reusable modular controllers given a single robot and environment, as well as a specification of which joints correspond to which assemblies.
 
 ## Installing RoboGrammar / DiffHand 
 
@@ -101,6 +101,23 @@ python3 design/train.py --task FrozenLakeTask --num-processes 8 --seed 2 --robot
 ```
 python design/train.py --num-processes 16 --seed 2 --num-steps 100 --num-env-steps 300000 --env-name AllRelClawGraspCube-v0 --robot-rank "5_grasp_finger" --task "5_cube_arm_1" --hi-mode v2 --base-hidden-size 64 --base-last-hidden-size 384 --set-low-logstd -1.0 --transfer-str "memo-4finger-cube" --load-model-path [PRETRAINED_MODEL_PATH]
 ```
+
+## Structure Transfer with Pretrained Models
+
+Under the `pretrained_models` folder, there are a couple models pretrained with MeMo. Once `AllRelClawGraspCube-v0-fs=5` is moved to `rl_DiffHand/trained_models` and `RobotLocomotion-v2` is moved to `rl_RoboGrammar/trained_models`, you can run the below commands to do structure transfer.
+
+### 6 to 12 Leg Centipede
+
+```
+python3 design/train.py --task FrozenLakeTask --num-processes 8 --seed 2 --robot-rank "12leg" --rule-seq "0, 7, 1, 12, 2, 3, 9, 4, 16, 8, 14, 4, 15, 8, 4, 16, 8, 4, 18, 8, 5, 1, 12, 2, 9, 4, 16, 8, 14, 4, 15, 8, 4, 16, 8, 4, 18, 8, 5, 1, 12, 3, 1, 12, 2, 9, 4, 16, 8, 14, 4, 15, 8, 4, 16, 8, 4, 18, 8, 5, 1, 12, 3, 1, 12, 2, 9, 4, 16, 8, 14, 4, 15, 8, 4, 16, 8, 4, 18, 8, 5, 1, 12, 3, 1, 12, 2, 9, 4, 16, 8, 14, 4, 15, 8, 4, 16, 8, 4, 18, 8, 5, 1, 12, 3, 1, 12, 2, 9, 4, 16, 8, 14, 4, 15, 8, 4, 16, 8, 4, 18, 8, 5, 6" --env-name RobotLocomotion-v2 --hi-mode v2 --base-hidden-size 128 --base-last-hidden-size 2176 --set-low-logstd -1.0 --transfer-str memo-6leg-frozen --num-steps 256 --load-model-path "./trained_models/RobotLocomotion-v2/FrozenLakeTask/rank_6leg/rl_ns=5_nw=0.7_mnw=0.0_lr=0.0003_lrs_dec_total-ns=8000000_nmb=32_nl_tan_bhs=128_blhs=1024_bhl=2_seed=2/il_ep_1_loss_log_bs_1024_il-lr_0.002_de_175_dag_True_imi_-1_hi_v2_lstd_sep_els_False_nl_tan_sfx_None_swm_False_dhs_-1_mhs_32_dhl_2_l1_0.0_l2_0.0_jac_0.0_npr_1_noi_True_nstd_1.0/models/best_model.pt"
+```
+
+### 4 to 5 finger Claw
+
+```
+python design/train.py --num-processes 16 --seed 2 --num-steps 100 --num-env-steps 300000 --env-name AllRelClawGraspCube-v0 --robot-rank "5_grasp_finger" --task "5_cube_arm_1" --hi-mode v2 --base-hidden-size 64 --base-last-hidden-size 384 --set-low-logstd -1.0 --transfer-str "memo-4finger-cube" --load-model-path "./trained_models/AllRelClawGraspCube-v0-fs=5/cube_arm_1/rank_4_grasp_finger/rl_ns=5_dw=0.1_nw=0.0_lr=0.0007_lrs_dec_total-ns=8000000_np=16_nmb=32_nl_tan_bhs=64_blhs=320_bhl=2_seed=2/il_ep_1_loss_log_bs_512_il-lr_0.007_de_175_dag_True_imi_-1_hi_v2_lstd_sep_els_False_nl_tan_sfx_None_swm_False_dhs_-1_mhs_32_l1_0.0_noi_True_nstd_1.0_nrel_False_ntr_False/models/best_model.pt"
+```
+
 
 ## Task Transfer
 

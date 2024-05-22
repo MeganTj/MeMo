@@ -1,0 +1,1132 @@
+Noise level: 1.0
+Iteration 0
+Set noise level to: 1.0000
+Updating actor with 50 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 12.069994
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 18.271857
+Learning rate: [0.007]
+Best model has eval score 12.069994, previously     inf
+Iteration 1
+Set noise level to: 1.0000
+Updating actor with 87 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 11.356647
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 31.940696
+Learning rate: [0.007]
+Best model has eval score 11.356647, previously  12.069994
+Iteration 2
+Set noise level to: 1.0000
+Updating actor with 116 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 11.150009
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 26.761646
+Learning rate: [0.007]
+Best model has eval score 11.150009, previously  11.356647
+Iteration 3
+Set noise level to: 1.0000
+Updating actor with 166 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 11.168545
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 21.543433
+Learning rate: [0.007]
+Iteration 4
+Set noise level to: 1.0000
+Updating actor with 216 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 11.329908
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 19.286381
+Learning rate: [0.007]
+Iteration 5
+Set noise level to: 1.0000
+Updating actor with 266 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 11.662750
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 18.064206
+Learning rate: [0.007]
+Iteration 6
+Set noise level to: 1.0000
+Updating actor with 316 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 12.206724
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 17.474864
+Learning rate: [0.007]
+Iteration 7
+Set noise level to: 1.0000
+Updating actor with 362 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 12.982966
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 16.801739
+Learning rate: [0.007]
+Iteration 8
+Set noise level to: 1.0000
+Updating actor with 410 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 13.898109
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 16.336176
+Learning rate: [0.007]
+Iteration 9
+Set noise level to: 1.0000
+Updating actor with 431 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 14.714217
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 15.510120
+Learning rate: [0.007]
+Iteration 10
+Set noise level to: 1.0000
+Updating actor with 454 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 15.149440
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 15.394003
+Learning rate: [0.007]
+Iteration 11
+Set noise level to: 1.0000
+Updating actor with 478 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 15.062775
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 15.320036
+Learning rate: [0.007]
+Iteration 12
+Set noise level to: 1.0000
+Updating actor with 503 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 14.545373
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 15.005000
+Learning rate: [0.007]
+Iteration 13
+Set noise level to: 1.0000
+Updating actor with 553 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 13.822378
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 15.397528
+Learning rate: [0.007]
+Iteration 14
+Set noise level to: 1.0000
+Updating actor with 603 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 13.118087
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 14.572234
+Learning rate: [0.007]
+Iteration 15
+Set noise level to: 1.0000
+Updating actor with 653 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 12.598217
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 14.238649
+Learning rate: [0.007]
+Iteration 16
+Set noise level to: 1.0000
+Updating actor with 703 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 12.278886
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 13.871342
+Learning rate: [0.007]
+Iteration 17
+Set noise level to: 1.0000
+Updating actor with 753 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 12.160658
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 13.419998
+Learning rate: [0.007]
+Iteration 18
+Set noise level to: 1.0000
+Updating actor with 803 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 12.177221
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 13.318824
+Learning rate: [0.007]
+Iteration 19
+Set noise level to: 1.0000
+Updating actor with 853 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 12.254518
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 13.001514
+Learning rate: [0.007]
+Iteration 20
+Set noise level to: 1.0000
+Updating actor with 903 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 12.334268
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 12.769363
+Learning rate: [0.007]
+Iteration 21
+Set noise level to: 1.0000
+Updating actor with 953 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 12.465048
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 12.517188
+Learning rate: [0.007]
+Iteration 22
+Set noise level to: 1.0000
+Updating actor with 1003 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 12.571212
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 12.435271
+Learning rate: [0.007]
+Iteration 23
+Set noise level to: 1.0000
+Updating actor with 1053 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 12.657023
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 24.311885
+Learning rate: [0.007]
+Iteration 24
+Set noise level to: 1.0000
+Updating actor with 1103 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 12.448112
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 23.629605
+Learning rate: [0.007]
+Iteration 25
+Set noise level to: 1.0000
+Updating actor with 1153 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 12.086244
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 23.394628
+Learning rate: [0.007]
+Iteration 26
+Set noise level to: 1.0000
+Updating actor with 1203 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 11.724461
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 23.009913
+Learning rate: [0.007]
+Iteration 27
+Set noise level to: 1.0000
+Updating actor with 1253 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 11.412412
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 22.683690
+Learning rate: [0.007]
+Iteration 28
+Set noise level to: 1.0000
+Updating actor with 1303 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 11.233202
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 22.441516
+Learning rate: [0.007]
+Iteration 29
+Set noise level to: 1.0000
+Updating actor with 1353 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 11.127952
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 22.338251
+Learning rate: [0.007]
+Best model has eval score 11.127952, previously  11.150009
+Iteration 30
+Set noise level to: 1.0000
+Updating actor with 1403 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 11.074063
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 21.868552
+Learning rate: [0.007]
+Best model has eval score 11.074063, previously  11.127952
+Iteration 31
+Set noise level to: 1.0000
+Updating actor with 1453 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 11.077144
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 21.676242
+Learning rate: [0.007]
+Iteration 32
+Set noise level to: 1.0000
+Updating actor with 1503 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 11.100675
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 21.362703
+Learning rate: [0.007]
+Iteration 33
+Set noise level to: 1.0000
+Updating actor with 1553 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 11.095313
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 15.853247
+Learning rate: [0.007]
+Iteration 34
+Set noise level to: 1.0000
+Updating actor with 1603 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 10.913337
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 15.637186
+Learning rate: [0.007]
+Best model has eval score 10.913337, previously  11.074063
+Iteration 35
+Set noise level to: 1.0000
+Updating actor with 1653 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 10.522505
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 15.380089
+Learning rate: [0.007]
+Best model has eval score 10.522505, previously  10.913337
+Iteration 36
+Set noise level to: 1.0000
+Updating actor with 1703 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 10.279812
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 15.185680
+Learning rate: [0.007]
+Best model has eval score 10.279812, previously  10.522505
+Iteration 37
+Set noise level to: 1.0000
+Updating actor with 1753 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 10.198547
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 14.931052
+Learning rate: [0.007]
+Best model has eval score 10.198547, previously  10.279812
+Iteration 38
+Set noise level to: 1.0000
+Updating actor with 1803 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 10.045974
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 14.690880
+Learning rate: [0.007]
+Best model has eval score 10.045974, previously  10.198547
+Iteration 39
+Set noise level to: 1.0000
+Updating actor with 1853 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 9.766690
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 14.498356
+Learning rate: [0.007]
+Best model has eval score 9.766690, previously  10.045974
+Iteration 40
+Set noise level to: 1.0000
+Updating actor with 1903 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 9.568016
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 14.371196
+Learning rate: [0.007]
+Best model has eval score 9.568016, previously  9.766690
+Iteration 41
+Set noise level to: 1.0000
+Updating actor with 1953 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 9.544537
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 14.107922
+Learning rate: [0.007]
+Best model has eval score 9.544537, previously  9.568016
+Iteration 42
+Set noise level to: 1.0000
+Updating actor with 2003 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 9.348124
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 13.865802
+Learning rate: [0.007]
+Best model has eval score 9.348124, previously  9.544537
+Iteration 43
+Set noise level to: 1.0000
+Updating actor with 2053 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 8.916997
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 12.143378
+Learning rate: [0.007]
+Best model has eval score 8.916997, previously  9.348124
+Iteration 44
+Set noise level to: 1.0000
+Updating actor with 2103 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 8.869742
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 11.852326
+Learning rate: [0.007]
+Best model has eval score 8.869742, previously  8.916997
+Iteration 45
+Set noise level to: 1.0000
+Updating actor with 2153 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 8.458653
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 11.582766
+Learning rate: [0.007]
+Best model has eval score 8.458653, previously  8.869742
+Iteration 46
+Set noise level to: 1.0000
+Updating actor with 2203 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 8.305896
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 11.348006
+Learning rate: [0.007]
+Best model has eval score 8.305896, previously  8.458653
+Iteration 47
+Set noise level to: 1.0000
+Updating actor with 2253 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 8.068821
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 11.093977
+Learning rate: [0.007]
+Best model has eval score 8.068821, previously  8.305896
+Iteration 48
+Set noise level to: 1.0000
+Updating actor with 2303 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 7.715309
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 10.835651
+Learning rate: [0.007]
+Best model has eval score 7.715309, previously  8.068821
+Iteration 49
+Set noise level to: 1.0000
+Updating actor with 2353 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 7.594319
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 10.574248
+Learning rate: [0.007]
+Best model has eval score 7.594319, previously  7.715309
+Iteration 50
+Set noise level to: 1.0000
+Updating actor with 2403 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 7.165365
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 10.337785
+Learning rate: [0.007]
+Best model has eval score 7.165365, previously  7.594319
+Iteration 51
+Set noise level to: 1.0000
+Updating actor with 2453 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 7.141283
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 10.098157
+Learning rate: [0.007]
+Best model has eval score 7.141283, previously  7.165365
+Iteration 52
+Set noise level to: 1.0000
+Updating actor with 2503 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 6.801107
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 9.858572
+Learning rate: [0.007]
+Best model has eval score 6.801107, previously  7.141283
+Iteration 53
+Set noise level to: 1.0000
+Updating actor with 2553 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 6.692184
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 9.579409
+Learning rate: [0.007]
+Best model has eval score 6.692184, previously  6.801107
+Iteration 54
+Set noise level to: 1.0000
+Updating actor with 2603 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 6.530497
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 8.745423
+Learning rate: [0.007]
+Best model has eval score 6.530497, previously  6.692184
+Iteration 55
+Set noise level to: 1.0000
+Updating actor with 2653 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 5.893602
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 8.498963
+Learning rate: [0.007]
+Best model has eval score 5.893602, previously  6.530497
+Iteration 56
+Set noise level to: 1.0000
+Updating actor with 2703 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 5.781248
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 8.229740
+Learning rate: [0.007]
+Best model has eval score 5.781248, previously  5.893602
+Iteration 57
+Set noise level to: 1.0000
+Updating actor with 2753 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 5.820319
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 7.953995
+Learning rate: [0.007]
+Iteration 58
+Set noise level to: 1.0000
+Updating actor with 2803 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 5.416284
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 7.668288
+Learning rate: [0.007]
+Best model has eval score 5.416284, previously  5.781248
+Iteration 59
+Set noise level to: 1.0000
+Updating actor with 2853 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 5.072201
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 7.454088
+Learning rate: [0.007]
+Best model has eval score 5.072201, previously  5.416284
+Iteration 60
+Set noise level to: 1.0000
+Updating actor with 2903 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 4.752158
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 7.118984
+Learning rate: [0.007]
+Best model has eval score 4.752158, previously  5.072201
+Iteration 61
+Set noise level to: 1.0000
+Updating actor with 2953 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 4.560804
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 6.901992
+Learning rate: [0.007]
+Best model has eval score 4.560804, previously  4.752158
+Iteration 62
+Set noise level to: 1.0000
+Updating actor with 3003 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 4.473609
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 6.644541
+Learning rate: [0.007]
+Best model has eval score 4.473609, previously  4.560804
+Iteration 63
+Set noise level to: 1.0000
+Updating actor with 3053 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 4.251899
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 6.402602
+Learning rate: [0.007]
+Best model has eval score 4.251899, previously  4.473609
+Iteration 64
+Set noise level to: 1.0000
+Updating actor with 3103 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 3.915374
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 5.849057
+Learning rate: [0.007]
+Best model has eval score 3.915374, previously  4.251899
+Iteration 65
+Set noise level to: 1.0000
+Updating actor with 3153 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 3.681417
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 5.565355
+Learning rate: [0.007]
+Best model has eval score 3.681417, previously  3.915374
+Iteration 66
+Set noise level to: 1.0000
+Updating actor with 3203 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 3.361622
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 5.305545
+Learning rate: [0.007]
+Best model has eval score 3.361622, previously  3.681417
+Iteration 67
+Set noise level to: 1.0000
+Updating actor with 3253 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 3.113919
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 4.978866
+Learning rate: [0.007]
+Best model has eval score 3.113919, previously  3.361622
+Iteration 68
+Set noise level to: 1.0000
+Updating actor with 3303 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 2.985390
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 4.735944
+Learning rate: [0.007]
+Best model has eval score 2.985390, previously  3.113919
+Iteration 69
+Set noise level to: 1.0000
+Updating actor with 3353 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 2.592938
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 4.444119
+Learning rate: [0.007]
+Best model has eval score 2.592938, previously  2.985390
+Iteration 70
+Set noise level to: 1.0000
+Updating actor with 3403 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 2.397518
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 4.193986
+Learning rate: [0.007]
+Best model has eval score 2.397518, previously  2.592938
+Iteration 71
+Set noise level to: 1.0000
+Updating actor with 3453 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 2.230895
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 3.885337
+Learning rate: [0.007]
+Best model has eval score 2.230895, previously  2.397518
+Iteration 72
+Set noise level to: 1.0000
+Updating actor with 3503 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 1.975017
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 3.707628
+Learning rate: [0.007]
+Best model has eval score 1.975017, previously  2.230895
+Iteration 73
+Set noise level to: 1.0000
+Updating actor with 3553 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 1.746409
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 3.408597
+Learning rate: [0.007]
+Best model has eval score 1.746409, previously  1.975017
+Iteration 74
+Set noise level to: 1.0000
+Updating actor with 3603 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 1.537487
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 3.089644
+Learning rate: [0.007]
+Best model has eval score 1.537487, previously  1.746409
+Iteration 75
+Set noise level to: 1.0000
+Updating actor with 3653 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 1.270529
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 2.874728
+Learning rate: [0.007]
+Best model has eval score 1.270529, previously  1.537487
+Iteration 76
+Set noise level to: 1.0000
+Updating actor with 3703 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 1.123628
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 2.590403
+Learning rate: [0.007]
+Best model has eval score 1.123628, previously  1.270529
+Iteration 77
+Set noise level to: 1.0000
+Updating actor with 3753 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 0.957498
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 2.264849
+Learning rate: [0.007]
+Best model has eval score 0.957498, previously  1.123628
+Iteration 78
+Set noise level to: 1.0000
+Updating actor with 3803 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 0.769006
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 2.110473
+Learning rate: [0.007]
+Best model has eval score 0.769006, previously  0.957498
+Iteration 79
+Set noise level to: 1.0000
+Updating actor with 3853 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 0.481992
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 1.809936
+Learning rate: [0.007]
+Best model has eval score 0.481992, previously  0.769006
+Iteration 80
+Set noise level to: 1.0000
+Updating actor with 3903 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 0.223640
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 1.602112
+Learning rate: [0.007]
+Best model has eval score 0.223640, previously  0.481992
+Iteration 81
+Set noise level to: 1.0000
+Updating actor with 3953 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 0.136446
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 1.431722
+Learning rate: [0.007]
+Best model has eval score 0.136446, previously  0.223640
+Iteration 82
+Set noise level to: 1.0000
+Updating actor with 4003 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -0.101321
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 1.178015
+Learning rate: [0.007]
+Best model has eval score -0.101321, previously  0.136446
+Iteration 83
+Set noise level to: 1.0000
+Updating actor with 4053 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: 0.094135
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 1.011735
+Learning rate: [0.007]
+Iteration 84
+Set noise level to: 1.0000
+Updating actor with 4103 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -0.267083
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 0.815475
+Learning rate: [0.007]
+Best model has eval score -0.267083, previously  -0.101321
+Iteration 85
+Set noise level to: 1.0000
+Updating actor with 4153 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -0.632136
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 0.634230
+Learning rate: [0.007]
+Best model has eval score -0.632136, previously  -0.267083
+Iteration 86
+Set noise level to: 1.0000
+Updating actor with 4203 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -0.585645
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 0.427023
+Learning rate: [0.007]
+Iteration 87
+Set noise level to: 1.0000
+Updating actor with 4253 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -0.841370
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 0.262744
+Learning rate: [0.007]
+Best model has eval score -0.841370, previously  -0.632136
+Iteration 88
+Set noise level to: 1.0000
+Updating actor with 4303 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -0.903654
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: 0.056893
+Learning rate: [0.007]
+Best model has eval score -0.903654, previously  -0.841370
+Iteration 89
+Set noise level to: 1.0000
+Updating actor with 4353 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -0.850718
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -0.112294
+Learning rate: [0.007]
+Iteration 90
+Set noise level to: 1.0000
+Updating actor with 4403 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -1.441251
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -0.216206
+Learning rate: [0.007]
+Best model has eval score -1.441251, previously  -0.903654
+Iteration 91
+Set noise level to: 1.0000
+Updating actor with 4453 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -1.305308
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -0.554768
+Learning rate: [0.007]
+Iteration 92
+Set noise level to: 1.0000
+Updating actor with 4503 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -1.630855
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -0.582767
+Learning rate: [0.007]
+Best model has eval score -1.630855, previously  -1.441251
+Iteration 93
+Set noise level to: 1.0000
+Updating actor with 4553 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -1.231854
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -0.793735
+Learning rate: [0.007]
+Iteration 94
+Set noise level to: 1.0000
+Updating actor with 4603 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -1.730820
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -0.855798
+Learning rate: [0.007]
+Best model has eval score -1.730820, previously  -1.630855
+Iteration 95
+Set noise level to: 1.0000
+Updating actor with 4653 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -1.826413
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -0.993007
+Learning rate: [0.007]
+Best model has eval score -1.826413, previously  -1.730820
+Iteration 96
+Set noise level to: 1.0000
+Updating actor with 4703 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -1.922539
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -1.218015
+Learning rate: [0.007]
+Best model has eval score -1.922539, previously  -1.826413
+Iteration 97
+Set noise level to: 1.0000
+Updating actor with 4753 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -1.604023
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -1.359334
+Learning rate: [0.007]
+Iteration 98
+Set noise level to: 1.0000
+Updating actor with 4803 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -1.835506
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -1.369616
+Learning rate: [0.007]
+Iteration 99
+Set noise level to: 1.0000
+Updating actor with 4853 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -2.215189
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -1.555285
+Learning rate: [0.007]
+Best model has eval score -2.215189, previously  -1.922539
+Iteration 100
+Set noise level to: 1.0000
+Updating actor with 4903 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -2.399522
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -1.723224
+Learning rate: [0.007]
+Best model has eval score -2.399522, previously  -2.215189
+Iteration 101
+Set noise level to: 1.0000
+Updating actor with 4953 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -2.060154
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -1.706530
+Learning rate: [0.007]
+Iteration 102
+Set noise level to: 1.0000
+Updating actor with 5003 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -2.394197
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -1.921657
+Learning rate: [0.007]
+Iteration 103
+Set noise level to: 1.0000
+Updating actor with 5053 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -2.259562
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -1.991570
+Learning rate: [0.007]
+Iteration 104
+Set noise level to: 1.0000
+Updating actor with 5103 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -2.575861
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -2.151404
+Learning rate: [0.007]
+Best model has eval score -2.575861, previously  -2.399522
+Iteration 105
+Set noise level to: 1.0000
+Updating actor with 5153 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -2.557016
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -2.152996
+Learning rate: [0.007]
+Iteration 106
+Set noise level to: 1.0000
+Updating actor with 5203 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -2.300402
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -2.258965
+Learning rate: [0.007]
+Iteration 107
+Set noise level to: 1.0000
+Updating actor with 5253 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -2.575018
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -2.288051
+Learning rate: [0.007]
+Iteration 108
+Set noise level to: 1.0000
+Updating actor with 5303 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -2.732095
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -2.374053
+Learning rate: [0.007]
+Best model has eval score -2.732095, previously  -2.575861
+Iteration 109
+Set noise level to: 1.0000
+Updating actor with 5353 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -2.686709
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -2.548561
+Learning rate: [0.007]
+Iteration 110
+Set noise level to: 1.0000
+Updating actor with 5403 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.139736
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -2.680184
+Learning rate: [0.007]
+Best model has eval score -3.139736, previously  -2.732095
+Iteration 111
+Set noise level to: 1.0000
+Updating actor with 5453 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -2.814871
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -2.798299
+Learning rate: [0.007]
+Iteration 112
+Set noise level to: 1.0000
+Updating actor with 5503 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -2.876821
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -2.926698
+Learning rate: [0.007]
+Iteration 113
+Set noise level to: 1.0000
+Updating actor with 5553 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.052046
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -2.870257
+Learning rate: [0.007]
+Iteration 114
+Set noise level to: 1.0000
+Updating actor with 5603 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -2.884716
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -2.988826
+Learning rate: [0.007]
+Iteration 115
+Set noise level to: 1.0000
+Updating actor with 5653 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -2.871454
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -3.050517
+Learning rate: [0.007]
+Iteration 116
+Set noise level to: 1.0000
+Updating actor with 5703 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.294670
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -3.067912
+Learning rate: [0.007]
+Best model has eval score -3.294670, previously  -3.139736
+Iteration 117
+Set noise level to: 1.0000
+Updating actor with 5753 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.124064
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -3.267788
+Learning rate: [0.007]
+Iteration 118
+Set noise level to: 1.0000
+Updating actor with 5803 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -2.943843
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -3.131133
+Learning rate: [0.007]
+Iteration 119
+Set noise level to: 1.0000
+Updating actor with 5853 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -2.760909
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -3.000349
+Learning rate: [0.007]
+Iteration 120
+Set noise level to: 1.0000
+Updating actor with 5903 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.012872
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -3.384953
+Learning rate: [0.007]
+Iteration 121
+Set noise level to: 1.0000
+Updating actor with 5953 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.179277
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -3.507935
+Learning rate: [0.007]
+Iteration 122
+Set noise level to: 1.0000
+Updating actor with 6003 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.256123
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -3.693059
+Learning rate: [0.007]
+Iteration 123
+Set noise level to: 1.0000
+Updating actor with 6053 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -2.973894
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -3.595301
+Learning rate: [0.007]
+Iteration 124
+Set noise level to: 1.0000
+Updating actor with 6103 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.006082
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -3.699805
+Learning rate: [0.007]
+Iteration 125
+Set noise level to: 1.0000
+Updating actor with 6153 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.072716
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -3.690532
+Learning rate: [0.007]
+Iteration 126
+Set noise level to: 1.0000
+Updating actor with 6203 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.385801
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -3.732849
+Learning rate: [0.007]
+Best model has eval score -3.385801, previously  -3.294670
+Iteration 127
+Set noise level to: 1.0000
+Updating actor with 6253 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.278997
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -3.695614
+Learning rate: [0.007]
+Iteration 128
+Set noise level to: 1.0000
+Updating actor with 6303 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.468910
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -3.926723
+Learning rate: [0.007]
+Best model has eval score -3.468910, previously  -3.385801
+Iteration 129
+Set noise level to: 1.0000
+Updating actor with 6353 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -2.772138
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -3.410371
+Learning rate: [0.007]
+Iteration 130
+Set noise level to: 1.0000
+Updating actor with 6403 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.422780
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -3.822662
+Learning rate: [0.007]
+Iteration 131
+Set noise level to: 1.0000
+Updating actor with 6453 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.281926
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -3.715859
+Learning rate: [0.007]
+Iteration 132
+Set noise level to: 1.0000
+Updating actor with 6503 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.013763
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -3.888631
+Learning rate: [0.007]
+Iteration 133
+Set noise level to: 1.0000
+Updating actor with 6553 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.459328
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -4.008256
+Learning rate: [0.007]
+Iteration 134
+Set noise level to: 1.0000
+Updating actor with 6603 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.232752
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -4.026658
+Learning rate: [0.007]
+Iteration 135
+Set noise level to: 1.0000
+Updating actor with 6653 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.219097
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -4.049683
+Learning rate: [0.007]
+Iteration 136
+Set noise level to: 1.0000
+Updating actor with 6703 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.482159
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -4.122977
+Learning rate: [0.007]
+Best model has eval score -3.482159, previously  -3.468910
+Iteration 137
+Set noise level to: 1.0000
+Updating actor with 6753 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.202455
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -4.242622
+Learning rate: [0.007]
+Iteration 138
+Set noise level to: 1.0000
+Updating actor with 6803 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.087009
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -4.228926
+Learning rate: [0.007]
+Iteration 139
+Set noise level to: 1.0000
+Updating actor with 6853 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.733669
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -4.379829
+Learning rate: [0.007]
+Best model has eval score -3.733669, previously  -3.482159
+Iteration 140
+Set noise level to: 1.0000
+Updating actor with 6903 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.637405
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -4.351627
+Learning rate: [0.007]
+Iteration 141
+Set noise level to: 1.0000
+Updating actor with 6953 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.440216
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -4.416364
+Learning rate: [0.007]
+Iteration 142
+Set noise level to: 1.0000
+Updating actor with 7003 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.673519
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -4.533267
+Learning rate: [0.007]
+Iteration 143
+Set noise level to: 1.0000
+Updating actor with 7053 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.492170
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -4.300312
+Learning rate: [0.007]
+Iteration 144
+Set noise level to: 1.0000
+Updating actor with 7103 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.712739
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -4.500562
+Learning rate: [0.007]
+Iteration 145
+Set noise level to: 1.0000
+Updating actor with 7153 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.710673
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -4.616806
+Learning rate: [0.007]
+Iteration 146
+Set noise level to: 1.0000
+Updating actor with 7203 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.512898
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -4.635902
+Learning rate: [0.007]
+Iteration 147
+Set noise level to: 1.0000
+Updating actor with 7253 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.719734
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -4.447652
+Learning rate: [0.007]
+Iteration 148
+Set noise level to: 1.0000
+Updating actor with 7303 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.217502
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -4.767222
+Learning rate: [0.007]
+Iteration 149
+Set noise level to: 1.0000
+Updating actor with 7353 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.480505
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -4.716077
+Learning rate: [0.007]
+Iteration 150
+Set noise level to: 1.0000
+Updating actor with 7403 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.189110
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -4.909371
+Learning rate: [0.007]
+Iteration 151
+Set noise level to: 1.0000
+Updating actor with 7453 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.317638
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -4.946286
+Learning rate: [0.007]
+Iteration 152
+Set noise level to: 1.0000
+Updating actor with 7503 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.204460
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -4.931180
+Learning rate: [0.007]
+Iteration 153
+Set noise level to: 1.0000
+Updating actor with 7553 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.369796
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -4.877398
+Learning rate: [0.007]
+Iteration 154
+Set noise level to: 1.0000
+Updating actor with 7603 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.219478
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -4.945772
+Learning rate: [0.007]
+Iteration 155
+Set noise level to: 1.0000
+Updating actor with 7653 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.619253
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -5.066777
+Learning rate: [0.007]
+Iteration 156
+Set noise level to: 1.0000
+Updating actor with 7703 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.446461
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -4.972250
+Learning rate: [0.007]
+Iteration 157
+Set noise level to: 1.0000
+Updating actor with 7753 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.380299
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -4.960923
+Learning rate: [0.007]
+Iteration 158
+Set noise level to: 1.0000
+Updating actor with 7803 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.417914
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -4.946951
+Learning rate: [0.007]
+Iteration 159
+Set noise level to: 1.0000
+Updating actor with 7853 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.138725
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -5.081317
+Learning rate: [0.007]
+Iteration 160
+Set noise level to: 1.0000
+Updating actor with 7903 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.505630
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -5.255977
+Learning rate: [0.007]
+Iteration 161
+Set noise level to: 1.0000
+Updating actor with 7953 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.093699
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -5.287679
+Learning rate: [0.007]
+Iteration 162
+Set noise level to: 1.0000
+Updating actor with 8003 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.505818
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -5.264990
+Learning rate: [0.007]
+Iteration 163
+Set noise level to: 1.0000
+Updating actor with 8053 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.321433
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -5.223301
+Learning rate: [0.007]
+Iteration 164
+Set noise level to: 1.0000
+Updating actor with 8103 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.726243
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -5.416247
+Learning rate: [0.007]
+Iteration 165
+Set noise level to: 1.0000
+Updating actor with 8153 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.658980
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -5.414833
+Learning rate: [0.007]
+Iteration 166
+Set noise level to: 1.0000
+Updating actor with 8203 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.673334
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -5.300349
+Learning rate: [0.007]
+Iteration 167
+Set noise level to: 1.0000
+Updating actor with 8253 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.543411
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -5.383005
+Learning rate: [0.007]
+Iteration 168
+Set noise level to: 1.0000
+Updating actor with 8303 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.082492
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -5.375627
+Learning rate: [0.007]
+Iteration 169
+Set noise level to: 1.0000
+Updating actor with 8353 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.490553
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -5.431983
+Learning rate: [0.007]
+Iteration 170
+Set noise level to: 1.0000
+Updating actor with 8403 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.397116
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -5.482004
+Learning rate: [0.007]
+Iteration 171
+Set noise level to: 1.0000
+Updating actor with 8453 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.687276
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -5.519378
+Learning rate: [0.007]
+Iteration 172
+Set noise level to: 1.0000
+Updating actor with 8503 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.696726
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -5.623216
+Learning rate: [0.007]
+Iteration 173
+Set noise level to: 1.0000
+Updating actor with 8553 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.759560
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -5.539033
+Learning rate: [0.007]
+Best model has eval score -3.759560, previously  -3.733669
+Iteration 174
+Set noise level to: 1.0000
+Updating actor with 8603 train and 12500 val points
+[EPOCH]: 1, [VAL LOG PROB LOSS]: -3.468186
+[EPOCH]: 1, [TRAIN LOG PROB LOSS]: -5.652094
+Learning rate: [0.007]
+
+Reward (deterministic) without offset - Eval: 22677.835797 Train: 22677.835797 
+
+Final noise level: 1.0
+Final eval reward (deterministic): 22677.835797
+Final reward (non-deterministic) - Eval: 22749.693568839284, Train: 22749.693568839284
+Final eval metric: -3.759560346407314
+Final reward (deterministic) - Eval: 22677.835797, Train: 22677.835797
