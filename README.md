@@ -1,6 +1,6 @@
 # MeMo: Learning Meaningful, Modular Controllers
 
-This is the official codebase for [MeMo: Learning Meaningful, Modular Controllers via Noise Injection](https://arxiv.org/abs/1908.02729). MeMo is a method for learning reusable modular controllers given a single robot and environment, as well as a specification of which joints correspond to which assemblies.
+This is the official codebase for MeMo: Learning Meaningful, Modular Controllers via Noise Injection. MeMo is a method for learning reusable modular controllers given a single robot and environment, as well as a specification of which joints correspond to which assemblies.
 
 ## Installing RoboGrammar / DiffHand 
 
